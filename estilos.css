@@ -22,3 +22,13 @@ footer {
   padding: 1rem;
   background-color: #ddd;
 }
+
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
