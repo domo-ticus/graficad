@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #0057b8;
+  background-color: #2e8b57; /* Cambié el color a verde */
   color: white;
   padding: 2rem;
   text-align: center;
@@ -21,15 +21,6 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: #ddd;
-}
-
-img {
-  display: block;
-  margin: 2rem auto; /* esto la centra y le da espacio vertical */
-  max-width: 90%;     /* para que no desborde en pantallas pequeñas */
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 img {
