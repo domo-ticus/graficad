@@ -6,29 +6,63 @@ body {
   color: #333;
 }
 
+/* Estilo para el encabezado */
 header {
-  background-color: #2e8b57; /* Cambié el color a verde */
+  background-color: #28a745; /* Color verde */
   color: white;
   padding: 2rem;
   text-align: center;
 }
 
+/* Estilos para el carrusel */
+.carrusel-container {
+  width: 100%;
+  overflow: hidden; /* Esto asegura que las imágenes fuera del contenedor no se vean */
+}
+
+.carrusel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrusel img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Espaciado y márgenes para las imágenes adicionales */
+img {
+  display: block;
+  margin: 2rem auto; /* Centra la imagen */
+  max-width: 90%;     /* Asegura que las imágenes no sobrepasen el ancho */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección principal */
 main {
   padding: 2rem;
 }
 
+/* Estilo para la sección del pie de página */
 footer {
   text-align: center;
   padding: 1rem;
   background-color: #ddd;
 }
 
-img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  display: block;
-  margin: 2rem auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+/* Estilo para los textos dentro de la página */
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que las imágenes se ajusten correctamente en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .carrusel img {
+    max-width: 100%;
+  }
 }
